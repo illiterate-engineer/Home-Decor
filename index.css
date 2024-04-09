@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    font-size: 62.5%;
+box-sizing: border-box;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #edece8;
+    align-items: center;
+    padding:2.5rem 0;
+    font-size: 1.7rem;
+}
+
+.nav-items ul{
+    list-style:none;
+    display: flex;
+    margin-left: 1.8rem;
+}
+
+.nav-items li{
+    margin-right: 2.2rem;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: grey;
+}
+
+
+.header-logo h2{
+    font-size: 3.5rem;
+        font-family: "Lobster", cursive;
+}
+main{
+     min-height: 87.7vh;
+     background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jungalow-justina-blakeney-home-wallpaper-1593462507.jpg?crop=0.998xw:0.500xh;0.00160xw,0.171xh&resize=640:*);
+    background-size: cover; 
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .hero-container-middle{
+
+    } */
+
+.inner-container{
+    background-color: rgba(0, 0, 0, 0.7);
+     /* max-width: 600px;  */
+     padding: 3.5rem 2rem;
+     color: white;
+     text-align: center;
+     border-radius: 5rem;
+
+}
+
+.middle-name-1{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.middle-name-2{
+font-size: 10rem;
+margin-bottom: 3rem;
+}
+
+.middle-name-3>a{
+color: white;
+font-size: 2.5rem;
+}
